@@ -37,10 +37,12 @@ int main()
     }
     else if (roots == One_root)
     {
+        printf("Result:\n");
         printf("x0 = %.2lf\n", x0);
     }
     else if (roots == Two_roots)
     {
+        printf("Result:\n");
         printf("x0 = %.2lf\n", x0);
         printf("x1 = %.2lf\n", x1);
     }
