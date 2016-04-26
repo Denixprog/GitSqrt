@@ -1,5 +1,8 @@
 #include <stdio.h>
 #include <math.h>
+#define No_roots 0
+#define One_root 1
+#define Two_roots 2
 
 int solve(double a, double b, double c, double *x0, double *x1)
 {
@@ -20,9 +23,6 @@ int solve(double a, double b, double c, double *x0, double *x1)
     return 2;
 
 }
-
-
-
 
 int main()
 {
