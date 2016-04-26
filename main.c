@@ -31,6 +31,19 @@ int main()
     printf("Input a, b, c: \n");
     scanf("%lf %lf %lf", &a, &b, &c);
     roots = solve(a, b, c, &x0, &x1);
+    if (roots == No_roots)
+    {
+        printf("No real roots\n");
+    }
+    else if (roots == One_root)
+    {
+        printf("x0 = %.2lf\n", x0);
+    }
+    else if (roots == Two_roots)
+    {
+        printf("x0 = %.2lf\n", x0);
+        printf("x1 = %.2lf\n", x1);
+    }
 
 	return 0;
 
