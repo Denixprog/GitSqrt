@@ -26,6 +26,11 @@ int solve(double a, double b, double c, double *x0, double *x1)
 
 int main()
 {
+    double a, b, c, x0, x1;
+    int roots;
+    printf("Input a, b, c: \n");
+    scanf("%lf %lf %lf", &a, &b, &c);
+    roots = solve(a, b, c, &x0, &x1);
 
 	return 0;
 
